@@ -1,0 +1,22 @@
+{
+  "name": "url-shortner",
+  "version": "1.0.0",
+  "description": "Short your long url with minm length",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.7",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.8",
+    "open": "^8.4.0",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
